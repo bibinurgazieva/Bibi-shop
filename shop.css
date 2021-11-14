@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+}
+.main{
+    display:grid;
+    grid-template-rows: 300px 70px 1fr;
+    height:150vh;
+}
+
+.banner{
+    background-color: rgb(125, 223, 125);
+    background-image: url('./media/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 550px 300px;
+    background-position:center;
+    
+}
+form>input{
+    width: 330px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+form>button{
+    width:70px;
+    height:22px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color:aliceblue;
+
+}
+form>button:hover{
+    background-color: rgb(173, 201, 202);
+}
+.auth{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: aqua;
+    height:25px;
+    width:75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+.search-input{
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.list{
+    display:grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(3,250px);
+    grid-gap:35px;
+}
+.item{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item-4{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width:200px;
+}
+.search,.list, .detail,p{
+    background-color: rgb(198, 211, 235);
+}
+.item:hover{
+    opacity:0.7;
+}
+.detail{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}

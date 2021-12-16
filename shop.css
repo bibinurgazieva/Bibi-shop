@@ -8,15 +8,17 @@
 .main{
     display:grid;
     grid-template-rows: 300px 70px 1fr;
-    height:150vh;
+    height:220vh;
+    background: 
+    linear-gradient( rgba(83, 185, 115), rgba(88, 182, 182));
 }
 
 .banner{
-    background-color: rgb(125, 223, 125);
-    background-image: url('./media/banner.jpg');
+    /* background: 
+    linear-gradient( rgba(83, 185, 115), rgba(88, 182, 182));
     background-repeat: no-repeat;
+    background-position:center; */
     background-size: 550px 300px;
-    background-position:center;
     
 }
 form>input{
@@ -27,7 +29,7 @@ form>input{
 
 form>button{
     width:70px;
-    height:22px;
+    height:26px;
     background-color: cadetblue;
     border-radius: 10px;
     color:aliceblue;
@@ -76,7 +78,7 @@ form>button:hover{
     width:200px;
 }
 .search,.list, .detail,p{
-    background-color: rgb(198, 211, 235);
+    /* background-color: rgb(198, 211, 235); */
 }
 .item:hover{
     opacity:0.7;
@@ -87,3 +89,16 @@ form>button:hover{
     align-content: center;
     justify-content: center;
 }
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 5rem;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 30px;
+    color:rgb(72, 144, 88);
+
+}
+.w-100 {
+    width: 100%!important;
+    height: 350px;
